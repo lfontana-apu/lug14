@@ -48,7 +48,7 @@ public class Cellulare {
 	        this.creditoDisponibile = 0.0;
 	        this.chiamateEffettuate++;
 	        
-	        System.out.println("[SMS NOTIFICA] Chiamata interrotta per esaurimento credito.");
+	        System.out.println("[NOTIFICA SMS] Chiamata interrotta per esaurimento credito.");
 	        System.out.println("Conversazione durata solo " + minutiEffettivi + " minuti rispetto ai " + minutiDesiderati + " richiesti.");
 	    }
 	}
